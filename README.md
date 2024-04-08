@@ -1,5 +1,10 @@
 # Coral Dev Board Micro source code (coralmicro)
 
+## Clone
+```bash
+git clone --recurse-submodules -j8 git@github.com:Rafdal/coralmicro-ubuntu-22-fix.git
+```
+
 This repository contains all the code required to build apps for the [Coral Dev
 Board Micro](https://coral.ai/products/dev-board-micro). The Dev Board Micro is
 based on the NXP RT1176 microcontroller (dual-core MCU with Cortex M7 and M4)
@@ -37,7 +42,7 @@ them to your board with the included flashtool (`scripts/flashtool.py`).
 1. Clone `coralmicro` and all submodules:
 
     ```bash
-    git clone --recurse-submodules -j8 https://github.com/google-coral/coralmicro
+    git clone --recurse-submodules -j8 git@github.com:Rafdal/coralmicro-ubuntu-22-fix.git
     ```
 
 2. Install the required tools:
